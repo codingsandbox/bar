@@ -8,4 +8,3 @@ file(GLOB SOURCES CONFIGURE_DEPENDS "src/*.c")
 add_library(bar STATIC ${SOURCES})
 
 target_include_directories(bar PUBLIC "inc/")
-target_link_libraries(bar foo)

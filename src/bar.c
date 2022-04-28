@@ -1,6 +1,7 @@
+#include <stdio.h>
 #include "bar/bar.h"
-#include "foo/foo.h"
 
-void bar() {
-    foo();
+void bar()
+{
+    printf("HELLO BAR\n");
 }
